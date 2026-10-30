@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1793331119169,
+      "tag": "0000_restrict_rls_to_staff",
+      "breakpoints": true
+    }
+  ]
 }
