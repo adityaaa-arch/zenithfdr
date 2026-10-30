@@ -13,7 +13,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Dialog, DialogContent, DialogFooter, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { PageHeader, Panel, Empty, RemarksDialog, LifecycleBadge, VerificationBadge, Field } from "@/components/fdr/ui";
-import { ScoreBadge } from "@/components/fdr/shared";
+import { ScoreBadge } from "@/components/fdr/ui";
 import { useStore, actions, getState } from "@/lib/fdr/store";
 import { can, minLabel } from "@/lib/fdr/access";
 import { openFlags, priorityScore, isPendingVerification, CLOSED_STATES } from "@/lib/fdr/rules";
