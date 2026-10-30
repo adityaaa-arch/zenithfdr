@@ -33,6 +33,9 @@ export function hydrateStore() {
     if (raw) {
       const parsed = JSON.parse(raw) as AppState;
       if (parsed.version === seed.version) {
+        // Merge in seed users added after this state was saved (by id).
+        const have = new Set(parsed.users.map((u) => u.id));
+        parsed.users = [...parsed.users, ...seed.users.filter((u) => !have.has(u.id))];
         state = parsed;
         listeners.forEach((l) => l());
       }

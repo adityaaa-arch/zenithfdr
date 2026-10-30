@@ -24,6 +24,10 @@ export const USERS: AppUser[] = [
   { id: "u6", name: "Manoj Pillai", email: "m.pillai@finance.demo", role: "reviewer", institution: "Finance Department", active: true },
   { id: "u7", name: "Kavya Reddy", email: "k.reddy@sarovar.demo", role: "operator", institution: INSTITUTIONS[1], active: true },
   { id: "u8", name: "Imran Siddiqui", email: "i.siddiqui@keshav.demo", role: "operator", institution: INSTITUTIONS[2], active: false },
+  { id: "u9", name: "Aditya", email: "aditya@finance.demo", role: "operator", institution: "Finance Department", active: true },
+  { id: "u10", name: "Randhir", email: "randhir@finance.demo", role: "reviewer", institution: "Finance Department", active: true },
+  { id: "u11", name: "Borshan", email: "borshan@finance.demo", role: "reviewer", institution: "Finance Department", active: true },
+  { id: "u12", name: "Wajid", email: "wajid@finance.demo", role: "approver", institution: "Finance Department", active: true },
 ];
 
 export const ROLE_USER: Record<string, string> = { operator: "Priya Nair", reviewer: "Rahul Iyer", approver: "Dr. Meera Kulkarni" };
